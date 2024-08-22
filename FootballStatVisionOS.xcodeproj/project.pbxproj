@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC7F77FA2C3D7228006FCCFC /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CC7F77F92C3D7228006FCCFC /* RealityKitContent */; };
+		CC7F77FC2C3D7228006FCCFC /* FootballStatVisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F77FB2C3D7228006FCCFC /* FootballStatVisionOSApp.swift */; };
+		CC7F77FE2C3D7228006FCCFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F77FD2C3D7228006FCCFC /* ContentView.swift */; };
+		CC7F78002C3D722A006FCCFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7F77FF2C3D722A006FCCFC /* Assets.xcassets */; };
+		CC7F78032C3D722A006FCCFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7F78022C3D722A006FCCFC /* Preview Assets.xcassets */; };
+		CC7F780C2C3D7AF5006FCCFC /* XCAFootballDataClient in Frameworks */ = {isa = PBXBuildFile; productRef = CC7F780B2C3D7AF5006FCCFC /* XCAFootballDataClient */; };
+		CC7F780E2C3D7B49006FCCFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F780D2C3D7B49006FCCFC /* Constants.swift */; };
+		CC7F78112C3D7BA3006FCCFC /* StandingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F78102C3D7BA3006FCCFC /* StandingsTableView.swift */; };
+		CC7F78142C3D7CEF006FCCFC /* StandingsTableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F78132C3D7CEF006FCCFC /* StandingsTableObservable.swift */; };
+		CC7F78162C3D7D4F006FCCFC /* FetchPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F78152C3D7D4F006FCCFC /* FetchPhase.swift */; };
+		CC7F781A2C3D8B4A006FCCFC /* scorers.json in Resources */ = {isa = PBXBuildFile; fileRef = CC7F78182C3D8B4A006FCCFC /* scorers.json */; };
+		CC7F781B2C3D8B4A006FCCFC /* standings.json in Resources */ = {isa = PBXBuildFile; fileRef = CC7F78192C3D8B4A006FCCFC /* standings.json */; };
+		CC7F781D2C3D90A3006FCCFC /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F781C2C3D90A3006FCCFC /* Utility.swift */; };
+		CCEA17D62C41374500116336 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CCEA17D52C41374500116336 /* SDWebImage */; };
+		CCEA17D82C41374500116336 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CCEA17D72C41374500116336 /* SDWebImageMapKit */; };
+		CCEA17DB2C4139AA00116336 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CCEA17DA2C4139AA00116336 /* SDWebImageSwiftUI */; };
+		CCEA17DD2C4143A600116336 /* StandingsTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA17DC2C4143A600116336 /* StandingsTabItemView.swift */; };
+		CCEA17DF2C4145C700116336 /* TopScorersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA17DE2C4145C700116336 /* TopScorersTableView.swift */; };
+		CCEA17E12C41461900116336 /* TopScorersTableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA17E02C41461900116336 /* TopScorersTableObservable.swift */; };
+		CCEA17E32C414F6400116336 /* TopScorersTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA17E22C414F6400116336 /* TopScorersTabItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC7F77F42C3D7228006FCCFC /* FootballStatVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballStatVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7F77F82C3D7228006FCCFC /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		CC7F77FB2C3D7228006FCCFC /* FootballStatVisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballStatVisionOSApp.swift; sourceTree = "<group>"; };
+		CC7F77FD2C3D7228006FCCFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC7F77FF2C3D722A006FCCFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7F78022C3D722A006FCCFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC7F78042C3D722A006FCCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7F780D2C3D7B49006FCCFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CC7F78102C3D7BA3006FCCFC /* StandingsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableView.swift; sourceTree = "<group>"; };
+		CC7F78132C3D7CEF006FCCFC /* StandingsTableObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableObservable.swift; sourceTree = "<group>"; };
+		CC7F78152C3D7D4F006FCCFC /* FetchPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhase.swift; sourceTree = "<group>"; };
+		CC7F78182C3D8B4A006FCCFC /* scorers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scorers.json; sourceTree = "<group>"; };
+		CC7F78192C3D8B4A006FCCFC /* standings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = standings.json; sourceTree = "<group>"; };
+		CC7F781C2C3D90A3006FCCFC /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		CCEA17DC2C4143A600116336 /* StandingsTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTabItemView.swift; sourceTree = "<group>"; };
+		CCEA17DE2C4145C700116336 /* TopScorersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTableView.swift; sourceTree = "<group>"; };
+		CCEA17E02C41461900116336 /* TopScorersTableObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTableObservable.swift; sourceTree = "<group>"; };
+		CCEA17E22C414F6400116336 /* TopScorersTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTabItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7F77F12C3D7228006FCCFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEA17DB2C4139AA00116336 /* SDWebImageSwiftUI in Frameworks */,
+				CCEA17D62C41374500116336 /* SDWebImage in Frameworks */,
+				CC7F77FA2C3D7228006FCCFC /* RealityKitContent in Frameworks */,
+				CCEA17D82C41374500116336 /* SDWebImageMapKit in Frameworks */,
+				CC7F780C2C3D7AF5006FCCFC /* XCAFootballDataClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC7F77EB2C3D7228006FCCFC = {
+			isa = PBXGroup;
+			children = (
+				CC7F77F62C3D7228006FCCFC /* FootballStatVisionOS */,
+				CC7F77F72C3D7228006FCCFC /* Packages */,
+				CC7F77F52C3D7228006FCCFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7F77F52C3D7228006FCCFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F77F42C3D7228006FCCFC /* FootballStatVisionOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7F77F62C3D7228006FCCFC /* FootballStatVisionOS */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F78172C3D8ADB006FCCFC /* Stubs */,
+				CC7F78122C3D7CC8006FCCFC /* Observables */,
+				CC7F780F2C3D7B88006FCCFC /* Views */,
+				CC7F77FB2C3D7228006FCCFC /* FootballStatVisionOSApp.swift */,
+				CC7F77FD2C3D7228006FCCFC /* ContentView.swift */,
+				CC7F77FF2C3D722A006FCCFC /* Assets.xcassets */,
+				CC7F78042C3D722A006FCCFC /* Info.plist */,
+				CC7F78012C3D722A006FCCFC /* Preview Content */,
+				CC7F780D2C3D7B49006FCCFC /* Constants.swift */,
+				CC7F78152C3D7D4F006FCCFC /* FetchPhase.swift */,
+				CC7F781C2C3D90A3006FCCFC /* Utility.swift */,
+			);
+			path = FootballStatVisionOS;
+			sourceTree = "<group>";
+		};
+		CC7F77F72C3D7228006FCCFC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F77F82C3D7228006FCCFC /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CC7F78012C3D722A006FCCFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F78022C3D722A006FCCFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC7F780F2C3D7B88006FCCFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F78102C3D7BA3006FCCFC /* StandingsTableView.swift */,
+				CCEA17DC2C4143A600116336 /* StandingsTabItemView.swift */,
+				CCEA17DE2C4145C700116336 /* TopScorersTableView.swift */,
+				CCEA17E22C414F6400116336 /* TopScorersTabItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC7F78122C3D7CC8006FCCFC /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F78132C3D7CEF006FCCFC /* StandingsTableObservable.swift */,
+				CCEA17E02C41461900116336 /* TopScorersTableObservable.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		CC7F78172C3D8ADB006FCCFC /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F78182C3D8B4A006FCCFC /* scorers.json */,
+				CC7F78192C3D8B4A006FCCFC /* standings.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7F77F32C3D7228006FCCFC /* FootballStatVisionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7F78072C3D722A006FCCFC /* Build configuration list for PBXNativeTarget "FootballStatVisionOS" */;
+			buildPhases = (
+				CC7F77F02C3D7228006FCCFC /* Sources */,
+				CC7F77F12C3D7228006FCCFC /* Frameworks */,
+				CC7F77F22C3D7228006FCCFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FootballStatVisionOS;
+			packageProductDependencies = (
+				CC7F77F92C3D7228006FCCFC /* RealityKitContent */,
+				CC7F780B2C3D7AF5006FCCFC /* XCAFootballDataClient */,
+				CCEA17D52C41374500116336 /* SDWebImage */,
+				CCEA17D72C41374500116336 /* SDWebImageMapKit */,
+				CCEA17DA2C4139AA00116336 /* SDWebImageSwiftUI */,
+			);
+			productName = FootballStatVisionOS;
+			productReference = CC7F77F42C3D7228006FCCFC /* FootballStatVisionOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7F77EC2C3D7228006FCCFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CC7F77F32C3D7228006FCCFC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CC7F77EF2C3D7228006FCCFC /* Build configuration list for PBXProject "FootballStatVisionOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7F77EB2C3D7228006FCCFC;
+			packageReferences = (
+				CC7F780A2C3D7AF5006FCCFC /* XCRemoteSwiftPackageReference "XCAFootballDataClient" */,
+				CCEA17D42C41374500116336 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				CCEA17D92C4139AA00116336 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = CC7F77F52C3D7228006FCCFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7F77F32C3D7228006FCCFC /* FootballStatVisionOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7F77F22C3D7228006FCCFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F781A2C3D8B4A006FCCFC /* scorers.json in Resources */,
+				CC7F781B2C3D8B4A006FCCFC /* standings.json in Resources */,
+				CC7F78032C3D722A006FCCFC /* Preview Assets.xcassets in Resources */,
+				CC7F78002C3D722A006FCCFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7F77F02C3D7228006FCCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F781D2C3D90A3006FCCFC /* Utility.swift in Sources */,
+				CCEA17E32C414F6400116336 /* TopScorersTabItemView.swift in Sources */,
+				CCEA17DD2C4143A600116336 /* StandingsTabItemView.swift in Sources */,
+				CCEA17DF2C4145C700116336 /* TopScorersTableView.swift in Sources */,
+				CC7F77FE2C3D7228006FCCFC /* ContentView.swift in Sources */,
+				CC7F78112C3D7BA3006FCCFC /* StandingsTableView.swift in Sources */,
+				CCEA17E12C41461900116336 /* TopScorersTableObservable.swift in Sources */,
+				CC7F77FC2C3D7228006FCCFC /* FootballStatVisionOSApp.swift in Sources */,
+				CC7F780E2C3D7B49006FCCFC /* Constants.swift in Sources */,
+				CC7F78162C3D7D4F006FCCFC /* FetchPhase.swift in Sources */,
+				CC7F78142C3D7CEF006FCCFC /* StandingsTableObservable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC7F78052C3D722A006FCCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		CC7F78062C3D722A006FCCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		CC7F78082C3D722A006FCCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FootballStatVisionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = MAWU27NG6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ruben.FootballStatVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		CC7F78092C3D722A006FCCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FootballStatVisionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = MAWU27NG6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ruben.FootballStatVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7F77EF2C3D7228006FCCFC /* Build configuration list for PBXProject "FootballStatVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7F78052C3D722A006FCCFC /* Debug */,
+				CC7F78062C3D722A006FCCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7F78072C3D722A006FCCFC /* Build configuration list for PBXNativeTarget "FootballStatVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7F78082C3D722A006FCCFC /* Debug */,
+				CC7F78092C3D722A006FCCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC7F780A2C3D7AF5006FCCFC /* XCRemoteSwiftPackageReference "XCAFootballDataClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/XCAFootballDataClient.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		CCEA17D42C41374500116336 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.4;
+			};
+		};
+		CCEA17D92C4139AA00116336 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC7F77F92C3D7228006FCCFC /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		CC7F780B2C3D7AF5006FCCFC /* XCAFootballDataClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC7F780A2C3D7AF5006FCCFC /* XCRemoteSwiftPackageReference "XCAFootballDataClient" */;
+			productName = XCAFootballDataClient;
+		};
+		CCEA17D52C41374500116336 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCEA17D42C41374500116336 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		CCEA17D72C41374500116336 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCEA17D42C41374500116336 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		CCEA17DA2C4139AA00116336 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCEA17D92C4139AA00116336 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CC7F77EC2C3D7228006FCCFC /* Project object */;
+}
